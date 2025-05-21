@@ -223,8 +223,8 @@ namespace proje
 
         private void metinŞifrelemeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             frmMetinSifreleme sifreForm = new frmMetinSifreleme();
-             sifreForm.ShowDialog();
+             frmMetinSifreleme m = new frmMetinSifreleme();
+             m.ShowDialog();
         }
     }
 }
